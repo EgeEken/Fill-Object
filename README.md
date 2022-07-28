@@ -1,5 +1,4 @@
 # Fill-Object
-Fills any closed objects found within the given image
 
 # V1
 Version 1 of this program uses a system that checks in N directions for every pixel to see if there is a border (represented by a black pixel in white space, the code could be altered to use different colors instead) in all of those directions. If there is, it detects that the pixel is surrounded, and assumes that it is inside an object.
